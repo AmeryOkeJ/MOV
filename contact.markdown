@@ -1,6 +1,7 @@
 ---
 title: Contact
 date: 2016-11-23 04:14:00 Z
+position: 1
 Newsletter Copy: Join the Move-in mailing list and be one of the first to find out
   about our latest projects, products and news!
 ---

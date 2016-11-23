@@ -1,7 +1,7 @@
 ---
 title: Profile
 date: 2016-11-23 03:53:00 Z
-position: 1
+position: 2
 First Bubble Content: We take care of every last detail.
 First Pull Quote Content: We provide furniture packages and turn-key solutions for
   hotels, resorts, serviced apartments, investment properties, private homes, marketing
