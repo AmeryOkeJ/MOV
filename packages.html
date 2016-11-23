@@ -1,0 +1,15 @@
+{% capture content %}
+  <div class="{{title | downcase}}-aside">
+    <h3 class="downloads-title">
+      Downloads
+    </h3>
+    {% for asset in assets %}
+      <a href="{{asset.url}}" class="download-link"{% if asset.meta.download == 'yes' %}download{% endif %}>{{asset.meta.name}}</a>
+    {% endfor %}
+    <span class="quote quote--packages">We take care of every last detail, so all you have to do is move in.</span>
+  </div>
+  <div class="{{title | downcase}}-copy">
+    {{body}}
+  </div>
+{% endcapture %}
+{% include 'layouts/default' %}

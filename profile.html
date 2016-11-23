@@ -1,0 +1,20 @@
+{% capture content %}
+  <div class="{{title | downcase}}-aside">
+    <span class="bubble first">
+      {{meta['First Bubble Content']}}
+    </span>
+    <span class="quote first">
+      {{meta['First Pull Quote Content']}}
+    </span>
+    <span class="quote second">
+      {{meta['Second Pull Quote Content']}}
+    </span>
+    <span class="bubble second">
+      {{meta['Second Bubble Content']}}
+    </span>
+  </div>
+  <div class="{{title | downcase}}-copy">
+    {{body}}
+  </div>
+{% endcapture %}
+{% include 'layouts/default' %}
