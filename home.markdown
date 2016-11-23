@@ -5,5 +5,6 @@ permalink: "/home"
 Starburst Copy 1: Move-In
 Starburst Copy 2: Complete Furniture Packages
 spacers: small, small, large
+layout: "---"
 ---
 
